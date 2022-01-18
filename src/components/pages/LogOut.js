@@ -1,11 +1,11 @@
 import React from 'react';
 
-const HomeHeader = () => {
+const LogOut = () => {
     return (
         <div>
-            header
+            wylogowanie
         </div>
     );
 };
 
-export default HomeHeader;
+export default LogOut;

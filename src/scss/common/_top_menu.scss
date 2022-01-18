@@ -1,0 +1,53 @@
+@use "sass:color";
+
+.header-container {
+  background-color: #fff;
+  margin-top: 20px;
+
+  .header-container--small {
+    width: 1220px;
+    margin: 0 auto;
+  }
+
+  .header-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-nav--1,
+  .header-nav--2 {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+  }
+
+  .header-nav--1 * {
+    color: $color-of--text;
+    font-size: 0.875rem;
+
+    &:hover {
+      background: #fff;
+    }
+  }
+  .header-nav--2 * {
+    font-size: 1rem;
+  }
+  .scroll-links:hover {
+    border: 1px solid black;
+    padding: 5px 15px;
+    background: #fff;
+  }
+.yellow-link {
+  border: 1px solid $color-yellow;
+  padding: 5px 15px;
+  &:hover {
+    background: lighten($color-yellow, 35%);
+  }
+}
+
+}
+
+
+
+

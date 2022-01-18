@@ -1,7 +1,16 @@
 @import "settings/colors";
 @import "settings/fonts";
 @import "settings/normalize";
-
-body {
-  font-family: $font-base;
-};
+@import "settings/base";
+@import "pages/about_app";
+@import "pages/about_us";
+@import "pages/fundations_and_organizations";
+@import "pages/contact";
+@import "pages/home";
+@import "pages/home_three_columns";
+@import "pages/log_in";
+@import "pages/log_out";
+@import "pages/registration";
+@import "common/header";
+@import "common/header_intro";
+@import "common/top_menu";
