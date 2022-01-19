@@ -13,11 +13,11 @@ const HeaderIntro = () => {
                 </h1>
                 <img className="decoration" src={decoration} alt="title decoration"/>
                 <div className="header-intro-btns">
-                    <Link className="button" to="/logowanie">
-                        <span>ODDAJ RZECZY</span>
+                    <Link className="button-give" to="/logowanie">
+                        <span>ODDAJ <br/> RZECZY</span>
                     </Link>
-                    <Link className="button" to="/logowanie">
-                        <span>ZORGANIZUJ ZBIÓRKĘ</span>
+                    <Link className="button-make" to="/logowanie">
+                        <span>ZORGANIZUJ <br/> ZBIÓRKĘ</span>
                     </Link>
                 </div>
             </div>

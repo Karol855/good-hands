@@ -18,7 +18,7 @@ const TopMenu = () => {
                         </ul>
                         <ul className="header-nav--2">
                             <li>
-                                <Link to="/">Start</Link>
+                                <Link className="start-link" to="/">Start</Link>
                             </li>
                             <li>
                                 <ScrollLink

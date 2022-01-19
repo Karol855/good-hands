@@ -32,11 +32,19 @@
   }
   .header-nav--2 * {
     font-size: 1rem;
+
+  }
+  .start-link:hover {
+    border: 1px solid black;
+    padding: 5px 15px;
+    background: #fff;
+    cursor: pointer;
   }
   .scroll-links:hover {
     border: 1px solid black;
     padding: 5px 15px;
     background: #fff;
+    cursor: pointer;
   }
 .yellow-link {
   border: 1px solid $color-yellow;
