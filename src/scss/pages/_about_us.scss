@@ -1,0 +1,27 @@
+.about-us {
+  display: flex;
+
+  .about-us--content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: $color-background;
+    padding: 0 150px;
+
+    .content-text {
+      font-size: 1.2rem;
+      line-height: 1.9rem;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    img {
+      align-self: flex-end;
+    }
+  }
+
+  .about-us--img {
+    width: 50vw;
+  }
+}
