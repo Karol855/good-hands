@@ -1,0 +1,73 @@
+@use "sass:color";
+
+.title {
+  display: grid;
+  place-items: center;
+  row-gap: 25px;
+  padding-bottom: 30px;
+
+  .title-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .title-img {
+    width: 200px;
+  }
+}
+
+
+.about-app--main {
+  padding: 50px 0;
+}
+
+.about-app {
+  background-color: $color-background;
+  width: 100vw;
+
+  .about-app--container {
+    width: 900px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .about-app--content {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 50px 30px;
+    row-gap: 20px;
+    column-gap: 100px;
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 400;
+      display: inline-block;
+      height: 23px;
+    }
+
+    span:before {
+      display: block;
+      content: "";
+      height: 1px;
+      width: 65px;
+      background-color: #707070;
+      margin: 0 auto 15px auto;
+    }
+  }
+}
+
+.about-app--main .button-container {
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  text-align: center;
+
+  .button-give--second {
+    border: 1px solid $color-of--text;
+    padding: 7.5px 46.5px;
+    margin-right: 44px;
+    margin-top: 30px;
+  }
+
+}
