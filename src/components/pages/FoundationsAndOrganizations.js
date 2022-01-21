@@ -94,7 +94,7 @@ const FoundationsAndOrganizations = () => {
                 </div>
                 <div className="peopleWeHelp-box--select">
                     <div
-                        className="peopleWeHelp-box--select--box"
+                        className="peopleWeHelp-box--select---box"
                         onClick={handleClickFund}
                     >
                         Fundacjom
