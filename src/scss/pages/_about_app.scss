@@ -1,0 +1,19 @@
+@use "sass:color";
+
+.title {
+  display: grid;
+  place-items: center;
+  row-gap: 25px;
+  padding-bottom: 30px;
+
+  .title-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .title-img {
+    width: 200px;
+  }
+}
+
+
