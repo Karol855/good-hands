@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import Decoration from "../../assets/Decoration.svg"
 import data from "../../database/data";
 
@@ -41,25 +41,25 @@ const FoundationsAndOrganizations = () => {
         return (
             <li
                 key={index}
-                className="homeWhoWeHelpBox_li"
+                className="peopleWeHelp-li"
             >
-                <div className="homeWhoWeHelpBox_content__items">
+                <div className="peopleWeHelp-content--items">
                     <div
-                        className="content_text"
+                        className="content-text"
                     >
                         <p
-                            className="content_text__title"
+                            className="content-text--title"
                         >
                             {item.title}
                         </p>
                         <p
-                            className="content_text__subtitle"
+                            className="content-text--subtitle"
                         >
                             {item.subtitle}
                         </p>
                     </div>
                     <p
-                        className="content_text__items"
+                        className="content-text--items"
                     >
                         {item.things}
                     </p>
@@ -74,7 +74,7 @@ const FoundationsAndOrganizations = () => {
                 key={number}
                 id={number}
                 onClick={handleClick}
-                className="homeWhoWeHelpBox_pagination"
+                className="peopleWeHelp-pagination"
             >
                 {number}
             </div>
@@ -82,40 +82,40 @@ const FoundationsAndOrganizations = () => {
     });
 
     return (
-        <div className="homeWhoWeHelpContainer">
-            <div id="HomeWhoWeHelp" className="homeWhoWeHelpBox">
-                <div className="homeWhoWeHelpBox_title">
-                    <div className="homeWhoWeHelpBox_title__content">
+        <div className="peopleWeHelp-container">
+            <div id="peopleWeHelp" className="peopleWeHelp-box">
+                <div className="peopleWeHelp-box--title">
+                    <div className="peopleWeHelp-box--title---content">
                         Komu pomagamy ?
                     </div>
                     <img
                         src={Decoration}
                         alt="decoration sign"/>
                 </div>
-                <div className="homeWhoWeHelpBox_select">
+                <div className="peopleWeHelp-box--select">
                     <div
-                        className="homeWhoWeHelpBox_select__box"
+                        className="peopleWeHelp-box--select--box"
                         onClick={handleClickFund}
                     >
                         Fundacjom
                     </div>
                     <div
-                        className="homeWhoWeHelpBox_select__box"
+                        className="peopleWeHelp-box--select--box"
                         onClick={handleClickOrg}
                     >
                         <p>Organizacjom</p>
                         <p>pozarządowym</p>
                     </div>
                     <div
-                        className="homeWhoWeHelpBox_select__box"
+                        className="peopleWeHelp-box--select--box"
                         onClick={handleClickLocal}
                     >
                         <p>Lokalnym</p>
                         <p>zbiórkom</p>
                     </div>
                 </div>
-                <div className="homeWhoWeHelpBox_content">
-                    <div className="homeWhoWeHelpBox_content__title">
+                <div className="peopleWeHelp-box--content">
+                    <div className="peopleWeHelp-box--content---title">
                         {title}
                     </div>
                     {renderTodos}
@@ -124,7 +124,7 @@ const FoundationsAndOrganizations = () => {
                             ""
                             :
                             <div
-                                className="homeWhoWeHelpBox_content__paginationBox"
+                                className="peopleWeHelp-box--content---paginationBox"
                                 id="page-numbers">
                                 {renderPageNumbers}
                             </div>
