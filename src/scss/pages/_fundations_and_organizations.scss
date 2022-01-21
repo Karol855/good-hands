@@ -1,0 +1,152 @@
+.peopleWeHelp-container {
+  width: 1900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.peopleWeHelp-box {
+  margin: 0 auto;
+  width: 1344px;
+  height:862px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  &--title {
+    width: 320px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    &---content {
+      width: 320px;
+      height: 52px;
+      font-family: $font-base;
+      font-size: 37px;
+      line-height: 55px;
+      letter-spacing: -0.76px;
+      color: $color-of--text;
+    }
+  }
+
+  &--select {
+    width: 750px;
+    height: 79px;
+    margin-top: 50px;
+    display: flex;
+
+    &---box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: $font-base;
+      font-size: 24px;
+      line-height: 24px;
+      color: $color-of--text;
+      cursor: pointer;
+
+      &:hover {
+        border: 0.75px solid $color-of--text;
+      }
+
+      &:nth-child(1) {
+        width: 208px;
+        height: 79px;
+      }
+
+      &:nth-child(2) {
+        width: 274px;
+        margin: 0 30px;
+      }
+
+      &:nth-child(3) {
+        width: 208px;
+        height: 79px;
+      }
+    }
+  }
+
+  &--content {
+    width: 1344px;
+    height: 553px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top:80px;
+
+    &---title {
+      width: 640px;
+      height: 94px;
+      font-size: 22px;
+      font-family: $font-base;
+      line-height: 30px;
+      text-align: center;
+      margin-bottom: 66px;
+    }
+
+    &---items {
+      width: 1344px;
+      height: 81px;
+      margin-bottom: 34px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      border-bottom: 1px solid $color-grey;
+      font-family: $font-alt;
+    }
+
+    &---paginationBox {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &-li {
+    list-style-type: none;
+  }
+
+  &--pagination {
+    width: 40px;
+    height: 50px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      border:1px solid $color-of--text;
+    }
+  }
+}
+
+.content-text {
+  width: 572px;
+  height: 50px;
+  color: $color-of--text;
+  font-weight: 300;
+
+  &--title {
+    font-size: 26px;
+    line-height: 31px;
+  }
+
+  &--subtitle {
+    font-size: 16px;
+    line-height: 22px;
+    font-style: italic;
+  }
+
+  &--items {
+    font-size: 17px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-right: 37px;
+  }
+}
