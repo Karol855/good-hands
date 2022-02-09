@@ -13,8 +13,8 @@ const AboutUs = () => {
                         <img className="title-img" src={decoration} alt="decoration" />
                     </div>
                     <p className="content-text">
-                        Nori grape silver beet broccoli kombu beet greens fava bean potato
-                        quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil
+                        Nori grape silver beet broccoli kombu beet<br/> greens fava bean potato
+                        quandong celery.<br/> Bunya nuts black-eyed pea prairie turnip leek<br/> lentil
                         turnip greens parsnip.
                     </p>
                     <img src={signature} alt="signature" />
