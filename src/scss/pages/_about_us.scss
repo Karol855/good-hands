@@ -1,19 +1,21 @@
 .about-us {
   display: flex;
-
+  width: 100vw;
+  font-family: $font-alt;
   .about-us--content {
+    width:50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background: $color-background;
-    padding: 0 150px;
+    padding: 30px;
 
     .content-text {
-      font-size: 1.2rem;
+      font-size: 1rem;
       line-height: 1.9rem;
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 60px;
     }
 
     img {
@@ -22,6 +24,6 @@
   }
 
   .about-us--img {
-    width: 50vw;
+    width: 50%;
   }
 }

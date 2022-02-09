@@ -83,7 +83,7 @@ const FoundationsAndOrganizations = () => {
 
     return (
         <div className="peopleWeHelp-container">
-            <div id="peopleWeHelp" className="peopleWeHelp-box">
+            <div className="fundations-and--orgaznizations">
                 <div className="peopleWeHelp-box--title">
                     <div className="peopleWeHelp-box--title---content">
                         Komu pomagamy ?
@@ -100,14 +100,14 @@ const FoundationsAndOrganizations = () => {
                         Fundacjom
                     </div>
                     <div
-                        className="peopleWeHelp-box--select--box"
+                        className="peopleWeHelp-box--select---box"
                         onClick={handleClickOrg}
                     >
                         <p>Organizacjom</p>
                         <p>pozarządowym</p>
                     </div>
                     <div
-                        className="peopleWeHelp-box--select--box"
+                        className="peopleWeHelp-box--select---box"
                         onClick={handleClickLocal}
                     >
                         <p>Lokalnym</p>

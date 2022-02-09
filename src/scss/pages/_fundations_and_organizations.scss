@@ -1,10 +1,12 @@
 .peopleWeHelp-container {
-  width: 1900px;
+  width: 100vw;
+}
+.fundations-and--orgaznizations {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
+
 .peopleWeHelp-box {
   margin: 0 auto;
   width: 1344px;
@@ -13,8 +15,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-
   &--title {
+
     width: 320px;
     height: 110px;
     display: flex;
@@ -25,8 +27,10 @@
     &---content {
       width: 320px;
       height: 52px;
-      font-family: $font-base;
-      font-size: 37px;
+      display: flex;
+      justify-content: center;
+      font-family: $font-alt;
+      font-size: 36px;
       line-height: 55px;
       letter-spacing: -0.76px;
       color: $color-of--text;
@@ -38,13 +42,13 @@
     height: 79px;
     margin-top: 50px;
     display: flex;
-
+    justify-content: flex-end;
     &---box {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      font-family: $font-base;
+      font-family: $font-alt;
       font-size: 24px;
       line-height: 24px;
       color: $color-of--text;
@@ -84,7 +88,7 @@
       width: 640px;
       height: 94px;
       font-size: 22px;
-      font-family: $font-base;
+      font-family: $font-alt;
       line-height: 30px;
       text-align: center;
       margin-bottom: 66px;
@@ -105,24 +109,13 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      font-family: $font-alt;
+
     }
   }
 
   &-li {
     list-style-type: none;
-  }
-
-  &--pagination {
-    width: 40px;
-    height: 50px;
-    margin: 0 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    &:hover {
-      border:1px solid $color-of--text;
-    }
   }
 }
 
@@ -144,9 +137,27 @@
   }
 
   &--items {
+    position: relative;
     font-size: 17px;
-    line-height: 22px;
-    margin-top: 15px;
-    margin-right: 37px;
+    left: 600px;
   }
+}
+
+.peopleWeHelp-pagination {
+  width: 40px;
+  height: 50px;
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  &:hover {
+    border:1px solid $color-of--text;
+  }
+}
+
+.peopleWeHelp-content--items {
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
