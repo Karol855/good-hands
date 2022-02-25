@@ -1,7 +1,10 @@
 import React from 'react';
+import HeaderIntro from "../common/HeaderIntro";
 
 const HomeThreeColumns = () => {
     return (
+        <>
+            <HeaderIntro />
         <section className="home-three--columns">
             <div className="container">
                 <div className="column">
@@ -30,6 +33,7 @@ const HomeThreeColumns = () => {
                 </div>
             </div>
         </section>
+        </>
     );
 };
 
