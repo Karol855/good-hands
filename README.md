@@ -1,7 +1,3 @@
-# On-line on:
-
-https://karol855.github.io/good-hands/index.html
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
