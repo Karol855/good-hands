@@ -1,6 +1,6 @@
 # On-line on:
 
-https://karol855.github.io/good-hands/
+https://karol855.github.io/good-hands/index.html
 
 # Getting Started with Create React App
 
